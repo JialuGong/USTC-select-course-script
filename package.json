@@ -1,0 +1,17 @@
+{
+  "name": "ustc-select-course-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "huaiyu",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "nodemailer": "^6.6.3",
+    "superagent": "^6.1.0",
+    "webp-converter": "^2.3.3"
+  }
+}
