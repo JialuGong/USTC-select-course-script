@@ -64,7 +64,7 @@ const emailNotify = async (host, emailAddr, password, courseNam) => {
             .field('turnId', turnId);
 
         /**获取dream course的课容量 */
-        const courseCoutHash = addableLesson.body.
+        const courseCoutHash =await addableLesson.body.
             filter(item => courseIDList.includes(item.id)).
             reduce((acc, item) => acc.set(item.id, item.limitCount), new Map());
 
